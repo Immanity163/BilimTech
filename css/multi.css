@@ -38,6 +38,10 @@ body{
     font-family:'Roboto';
 }
 
+section{
+    margin-bottom: 100px;
+}
+
 .container {
     max-width: 1200px;
     padding: 0 15px;
@@ -56,6 +60,7 @@ body{
 
 .section-title{
     margin: 0;
+    margin-bottom: 30px;
     color: #091F5B;
     font-size: 48px;
     font-style: normal;
