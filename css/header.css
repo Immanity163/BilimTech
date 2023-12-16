@@ -1,18 +1,19 @@
 *,html{
-    margin: 0;
     padding: 0;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
 }
-
+body{
+    margin-top: 3%;
+}
 header{
     width: 80%;
-    margin: 3% auto 2%;
+    margin: 0 auto 2%;
     height: 20%;
     font-size: 15px
 }
 
 .header-top{
+    margin-top: 100px;
     height: 25%;
     margin: 0 0 3% ;
     display: flex;
@@ -36,6 +37,10 @@ header{
 }
 .header-nav>ul{
     display: inline;
+}
+.header-nav>ul>li>a{
+    text-decoration: none;
+    color:#000000;
 }
 .nav-item {
     list-style: none;
