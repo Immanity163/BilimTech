@@ -112,3 +112,116 @@
     background-repeat: no-repeat;
     background-position: top center;
 }
+
+.catalog-list{
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 30px;
+}
+
+.catalog-item{
+    width: 180px;
+    height: 266px;
+    border-radius: 20px;
+    outline: 2px solid #000;
+    outline-offset:-2px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.catalog-item-container{
+    width: 180px;
+    height: 66px;
+    margin: 0 auto;
+    margin-top: auto;
+    text-align: center center;
+    align-items: center;
+    border-top: 2px solid #000;;
+}
+
+.catalog-item-span{
+    margin: 0 auto;
+    text-align: center center;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.с1{
+    background-image: url('../icons/иконка\ -\ под\ ключ.svg');
+    background-repeat: no-repeat;
+    background-position:  center 46px;
+}
+
+.с2{
+    background-image: url('../icons/иконка\ -\ физика\ \(1\).svg');
+    background-repeat: no-repeat;
+    background-position:  center 46px;
+}
+
+.с3{
+    background-image: url('../icons/иконка\ -\ химия.svg');
+    background-repeat: no-repeat;
+    background-position:  center 46px;
+}
+
+.с4{
+    background-image: url('../icons/иконка\ -\ микроскоп\ биология.svg');
+    background-repeat: no-repeat;
+    background-position:  center 43px;
+}
+
+.с5{
+    background-image: url('../icons/иконка\ -\ математика.svg');
+    background-repeat: no-repeat;
+    background-position:  center 46px;
+}
+
+.с6{
+    background-image: url('../icons/иконка\ -\ география.svg');
+    background-repeat: no-repeat;
+    background-position:  center 46px;
+}
+
+.с7{
+    background-image: url('../icons/иконка\ -\ начальная.svg');
+    background-repeat: no-repeat;
+    background-position:  center 46px;
+}
+
+.с8{
+    background-image: url('../icons/иконка\ -\ stem.svg');
+    background-repeat: no-repeat;
+    background-position:  center 31px;
+}
+
+.с9{
+    background-image: url('../icons/иконка\ -\ робототехника.svg');
+    background-repeat: no-repeat;
+    background-position:  center 46px;
+}
+
+.с10{
+    background-image: url('../icons/иконка\ -\ английский\ язык.svg');
+    background-repeat: no-repeat;
+    background-position:  center 46px;
+}
+
+.с11{
+    background-image: url('../icons/иконка\ -\ лингофонный.svg');
+    background-repeat: no-repeat;
+    background-position:  center 46px;
+}
+
+.с12{
+    background-image: url('../icons/иконка\ -\ информатика.svg');
+    background-repeat: no-repeat;
+    background-position:  center 46px;
+}
+
+.cataloge-more-btn{
+    display: block;
+    margin: 0 auto;
+}
