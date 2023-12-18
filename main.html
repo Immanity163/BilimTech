@@ -7,7 +7,12 @@
     <title>BilimTech</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/multi.css">
+    <!-- secondary slider css packets -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <!-- secondary slider css packets end-->
     <link rel="stylesheet" href="css/main.css">
+
 </head>
 
 <body>
@@ -229,220 +234,107 @@
         <section class="recomend">
             <div class="slider-container">
                 <h2 class="section-title slider-title">Рекомендуемое оборудование</h2>
-                <section class="carousel" aria-label="Gallery">
-                <ol class="carousel__viewport">
-                    <li id="carousel__slide1"
-                        tabindex="0"
-                        class="carousel__slide">
-                    <div class="carousel__snapper">
-                        <a href="#carousel__slide4"
-                        class="carousel__prev">Go to last slide</a>
-                            <div class="slider-pos sl1">
-                                <ul class="recomend-list list-reset flex">
-                                    <li class="recomend-item flex">
-                                        <div class="recomended-item-image flex">
-                                            <img src="img/image 13.png" alt="" class="recomend-item-img">
-                                        </div>
-                                        <div class="recomend-item-content flex">
-                                            <h3 class="recomend-item-title">Панель интерактивная <br/> Roqed RQ-GT 75</h3>
-                                            <a href="" class="recomend-item-more">Подробнее</a>
-                                            <div class="recomend-item-conent-2 flex">
-                                                <span class="recomend-item-price">1 000 000 руб.</span>
-                                                <a href="" class="recomend-item-basket">В корзину</a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="recomend-item">
-                                        <div class="recomended-item-image flex">
-                                            <img src="img/image 14.png" alt="" class="recomend-item-img">
-                                        </div>
-                                        <div class="recomend-item-content flex">
-                                            <h3 class="recomend-item-title">Уникальное решение <br/> для проекции</h3>
-                                            <a href="" class="recomend-item-more">Подробнее</a>
-                                            <div class="recomend-item-conent-2 flex">
-                                                <span class="recomend-item-price">1 000 000 руб.</span>
-                                                <a href="" class="recomend-item-basket">В корзину</a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="recomend-item">
-                                        <div class="recomended-item-image flex">
-                                            <img src="img/image 15.png" alt="" class="recomend-item-img">
-                                        </div>
-                                        <div class="recomend-item-content flex">
-                                            <h3 class="recomend-item-title">Робототехника <br/> для детей</h3>
-                                            <a href="" class="recomend-item-more">Подробнее</a>
-                                            <div class="recomend-item-conent-2 flex">
-                                                <span class="recomend-item-price">1 000 000 руб.</span>
-                                                <a href="" class="recomend-item-basket">В корзину</a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
+                <div class="content">
+                    <div class="multiple-items">
+                        <div>
+                            <div class="recomend-item flex">
+                                <div class="recomended-item-image flex">
+                                    <img src="img/image 13.png" alt="" class="recomend-item-img">
+                                </div>
+                                <div class="recomend-item-content flex">
+                                    <h3 class="recomend-item-title">Панель интерактивная <br/> Roqed RQ-GT 75</h3>
+                                    <a href="" class="recomend-item-more">Подробнее</a>
+                                    <div class="recomend-item-conent-2 flex">
+                                        <span class="recomend-item-price">1 000 000 руб.</span>
+                                        <a href="" class="recomend-item-basket">В корзину</a>
+                                    </div>
+                                </div>
                             </div>
-                            <a href="#carousel__slide2"
-                            class="carousel__next">Go to first slide</a>
+                        </div>
+                        <div>
+                            <div class="recomend-item">
+                                <div class="recomended-item-image flex">
+                                    <img src="img/image 14.png" alt="" class="recomend-item-img">
+                                </div>
+                                <div class="recomend-item-content flex">
+                                    <h3 class="recomend-item-title">Уникальное решение <br/> для проекции</h3>
+                                    <a href="" class="recomend-item-more">Подробнее</a>
+                                    <div class="recomend-item-conent-2 flex">
+                                        <span class="recomend-item-price">1 000 000 руб.</span>
+                                        <a href="" class="recomend-item-basket">В корзину</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="recomend-item">
+                                <div class="recomended-item-image flex">
+                                    <img src="img/image 15.png" alt="" class="recomend-item-img">
+                                </div>
+                                <div class="recomend-item-content flex">
+                                    <h3 class="recomend-item-title">Робототехника <br/> для детей</h3>
+                                    <a href="" class="recomend-item-more">Подробнее</a>
+                                    <div class="recomend-item-conent-2 flex">
+                                        <span class="recomend-item-price">1 000 000 руб.</span>
+                                        <a href="" class="recomend-item-basket">В корзину</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      <div>
+                        <div>
+                            <div class="recomend-item flex">
+                                <div class="recomended-item-image flex">
+                                    <img src="img/image 13.png" alt="" class="recomend-item-img">
+                                </div>
+                                <div class="recomend-item-content flex">
+                                    <h3 class="recomend-item-title">Панель интерактивная <br/> Roqed RQ-GT 75</h3>
+                                    <a href="" class="recomend-item-more">Подробнее</a>
+                                    <div class="recomend-item-conent-2 flex">
+                                        <span class="recomend-item-price">1 000 000 руб.</span>
+                                        <a href="" class="recomend-item-basket">В корзину</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div>
+                        <div>
+                            <div class="recomend-item">
+                                <div class="recomended-item-image flex">
+                                    <img src="img/image 14.png" alt="" class="recomend-item-img">
+                                </div>
+                                <div class="recomend-item-content flex">
+                                    <h3 class="recomend-item-title">Уникальное решение <br/> для проекции</h3>
+                                    <a href="" class="recomend-item-more">Подробнее</a>
+                                    <div class="recomend-item-conent-2 flex">
+                                        <span class="recomend-item-price">1 000 000 руб.</span>
+                                        <a href="" class="recomend-item-basket">В корзину</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div>
+                        <div>
+                            <div class="recomend-item">
+                                <div class="recomended-item-image flex">
+                                    <img src="img/image 15.png" alt="" class="recomend-item-img">
+                                </div>
+                                <div class="recomend-item-content flex">
+                                    <h3 class="recomend-item-title">Робототехника <br/> для детей</h3>
+                                    <a href="" class="recomend-item-more">Подробнее</a>
+                                    <div class="recomend-item-conent-2 flex">
+                                        <span class="recomend-item-price">1 000 000 руб.</span>
+                                        <a href="" class="recomend-item-basket">В корзину</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
                     </div>
-                    </li>
-                    <li id="carousel__slide2"
-                        tabindex="0"
-                        class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                    <a href="#carousel__slide1"
-                        class="carousel__prev">Go to previous slide</a>
-                        <div class="slider-pos">
-                            <ul class="recomend-list list-reset flex">
-                                <li class="recomend-item flex">
-                                    <div class="recomended-item-image flex">
-                                        <img src="img/image 13.png" alt="" class="recomend-item-img">
-                                    </div>
-                                    <div class="recomend-item-content flex">
-                                        <h3 class="recomend-item-title">Панель интерактивная <br/> Roqed RQ-GT 75</h3>
-                                        <a href="" class="recomend-item-more">Подробнее</a>
-                                        <div class="recomend-item-conent-2 flex">
-                                            <span class="recomend-item-price">1 000 000 руб.</span>
-                                            <a href="" class="recomend-item-basket">В корзину</a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="recomend-item">
-                                    <div class="recomended-item-image flex">
-                                        <img src="img/image 14.png" alt="" class="recomend-item-img">
-                                    </div>
-                                    <div class="recomend-item-content flex">
-                                        <h3 class="recomend-item-title">Уникальное решение <br/> для проекции</h3>
-                                        <a href="" class="recomend-item-more">Подробнее</a>
-                                        <div class="recomend-item-conent-2 flex">
-                                            <span class="recomend-item-price">1 000 000 руб.</span>
-                                            <a href="" class="recomend-item-basket">В корзину</a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="recomend-item">
-                                    <div class="recomended-item-image flex">
-                                        <img src="img/image 15.png" alt="" class="recomend-item-img">
-                                    </div>
-                                    <div class="recomend-item-content flex">
-                                        <h3 class="recomend-item-title">Робототехника <br/> для детей</h3>
-                                        <a href="" class="recomend-item-more">Подробнее</a>
-                                        <div class="recomend-item-conent-2 flex">
-                                            <span class="recomend-item-price">1 000 000 руб.</span>
-                                            <a href="" class="recomend-item-basket">В корзину</a>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    <a href="#carousel__slide3"
-                        class="carousel__next">Go to next slide</a>
-                    </li>
-                    <li id="carousel__slide3"
-                        tabindex="0"
-                        class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                    <a href="#carousel__slide2"
-                        class="carousel__prev">Go to previous slide</a>
-                        <div class="slider-pos">
-                            <ul class="recomend-list list-reset flex">
-                                <li class="recomend-item flex">
-                                    <div class="recomended-item-image flex">
-                                        <img src="img/image 13.png" alt="" class="recomend-item-img">
-                                    </div>
-                                    <div class="recomend-item-content flex">
-                                        <h3 class="recomend-item-title">Панель интерактивная <br/> Roqed RQ-GT 75</h3>
-                                        <a href="" class="recomend-item-more">Подробнее</a>
-                                        <div class="recomend-item-conent-2 flex">
-                                            <span class="recomend-item-price">1 000 000 руб.</span>
-                                            <a href="" class="recomend-item-basket">В корзину</a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="recomend-item">
-                                    <div class="recomended-item-image flex">
-                                        <img src="img/image 14.png" alt="" class="recomend-item-img">
-                                    </div>
-                                    <div class="recomend-item-content flex">
-                                        <h3 class="recomend-item-title">Уникальное решение <br/> для проекции</h3>
-                                        <a href="" class="recomend-item-more">Подробнее</a>
-                                        <div class="recomend-item-conent-2 flex">
-                                            <span class="recomend-item-price">1 000 000 руб.</span>
-                                            <a href="" class="recomend-item-basket">В корзину</a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="recomend-item">
-                                    <div class="recomended-item-image flex">
-                                        <img src="img/image 15.png" alt="" class="recomend-item-img">
-                                    </div>
-                                    <div class="recomend-item-content flex">
-                                        <h3 class="recomend-item-title">Робототехника <br/> для детей</h3>
-                                        <a href="" class="recomend-item-more">Подробнее</a>
-                                        <div class="recomend-item-conent-2 flex">
-                                            <span class="recomend-item-price">1 000 000 руб.</span>
-                                            <a href="" class="recomend-item-basket">В корзину</a>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    <a href="#carousel__slide4"
-                        class="carousel__next">Go to next slide</a>
-                    </li>
-                    <li id="carousel__slide4"
-                        tabindex="0"
-                        class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                    <a href="#carousel__slide3"
-                        class="carousel__prev">Go to previous slide</a>
-                        <div class="slider-pos">
-                            <ul class="recomend-list list-reset flex">
-                                <li class="recomend-item flex">
-                                    <div class="recomended-item-image flex">
-                                        <img src="img/image 13.png" alt="" class="recomend-item-img">
-                                    </div>
-                                    <div class="recomend-item-content flex">
-                                        <h3 class="recomend-item-title">Панель интерактивная <br/> Roqed RQ-GT 75</h3>
-                                        <a href="" class="recomend-item-more">Подробнее</a>
-                                        <div class="recomend-item-conent-2 flex">
-                                            <span class="recomend-item-price">1 000 000 руб.</span>
-                                            <a href="" class="recomend-item-basket">В корзину</a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="recomend-item">
-                                    <div class="recomended-item-image flex">
-                                        <img src="img/image 14.png" alt="" class="recomend-item-img">
-                                    </div>
-                                    <div class="recomend-item-content flex">
-                                        <h3 class="recomend-item-title">Уникальное решение <br/> для проекции</h3>
-                                        <a href="" class="recomend-item-more">Подробнее</a>
-                                        <div class="recomend-item-conent-2 flex">
-                                            <span class="recomend-item-price">1 000 000 руб.</span>
-                                            <a href="" class="recomend-item-basket">В корзину</a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="recomend-item">
-                                    <div class="recomended-item-image flex">
-                                        <img src="img/image 15.png" alt="" class="recomend-item-img">
-                                    </div>
-                                    <div class="recomend-item-content flex">
-                                        <h3 class="recomend-item-title">Робототехника <br/> для детей</h3>
-                                        <a href="" class="recomend-item-more">Подробнее</a>
-                                        <div class="recomend-item-conent-2 flex">
-                                            <span class="recomend-item-price">1 000 000 руб.</span>
-                                            <a href="" class="recomend-item-basket">В корзину</a>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    <a href="#carousel__slide1"
-                        class="carousel__next">Go to first slide</a>
-                    </li>
-                </ol>
+                  </div>
             </div>
-
         </section>
         <section class="feedback">
             <div class="container">
@@ -540,6 +432,10 @@
         </section>
 
     </main>
+    <!-- secondary slider packets -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript" src="js/secondary-slider.js"></script>
 </body>
 
 </html>
