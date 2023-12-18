@@ -392,6 +392,7 @@ input[name="r"] {
   padding: 30px;
   width: 100%;
   box-sizing: border-box;
+  margin-left: 2vw;
 } 
 
 .arrow {
