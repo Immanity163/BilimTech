@@ -337,18 +337,20 @@
             </div>
         </section>
         <section class="feedback">
-            <div class="container">
+            <div class="container flex con-2">
                 <div class="feedback-left-container">
-                    <h2 class="section-title">Остались вопросы? Закажите звонок!</h2>
+                    <h2 class="section-title feedback-title">Остались вопросы? Закажите звонок!</h2>
                     <span class="feedback-span">Мы внимательно относимся ко всем обращениям клиентов</span>
-                    <form class="feedback-form">
-                        <input class="feedback-input" type="text" name="firstname">
-                        <input class="feedback-input" type="text" name="lastname">
+                    <form class="feedback-form flex">
+                        <input class="feedback-input" type="text" name="firstname" placeholder="Ваше имя">
+                        <input class="feedback-input" type="text" name="phone-number" placeholder="Ваш номер телефона">
                     </form>
-                    <form class="feedback-form">
-                        <input class="feedback-checkbox" id="html" type="checkbox">
-                    </form>
-                    <span class="feedback-span">Я согласен на обработку моих персональных данных</span>
+                    <div class="feedback-agree-container flex">
+                        <form class="feedback-form">
+                            <input class="feedback-checkbox" id="html" type="checkbox">
+                        </form>
+                        <span class="feedback-span">Я согласен на обработку моих персональных данных</span>
+                    </div>
                     <button class="btn feedback-btn">Заказать звонок</button>
                 </div>
                 <img class="feedback-img" src="img/feedback.jpg" alt="">

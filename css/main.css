@@ -400,3 +400,51 @@ input[name="r"] {
   width: 20px;
   height: 40px;
 }
+
+
+.con-2{
+    justify-content: space-between;
+}
+
+.feedback-left-container{
+    flex-direction: column;
+}
+
+.feedback-title{
+    max-width: 460px;
+    margin-bottom: 20px;
+}
+
+.feedback-span{
+    display: inline-block;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.feedback-form{
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+}
+
+input[type="text"]:focus {
+    color: #000000;
+    border: none;
+  }
+
+.feedback-input{
+    height: 30px;
+    max-width: 540px;
+    border: none;
+    border-bottom: 2px solid #888;
+    margin-bottom: 30px;
+}
+
+.feedback-input:active {
+    border: none;
+    border-bottom: 2px solid #888;
+}
