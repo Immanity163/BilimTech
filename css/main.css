@@ -304,6 +304,7 @@ input[name="r"] {
 .recomend{
   width: 90%;
   margin: auto;
+  margin-bottom: 100px;
 }
 .recomend-list{
     gap: 24px;
@@ -385,6 +386,7 @@ input[name="r"] {
     width: 90%;
     margin: auto;
     max-width: 1200px;
+    
 }
 
 .content {
@@ -537,4 +539,21 @@ input[type="text"]:focus {
 
 .contacts-item:nth-child(2n-1){
     margin-right: auto;
+}
+
+.accordion{
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5;
+}
+
+.active{
+    height: 100%;
+}
+.btn-text::after{
+    content:"Смотреть ещё";
+}
+.undo::after{
+    content:"Свернуть";
 }
