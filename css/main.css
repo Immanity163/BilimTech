@@ -381,19 +381,15 @@ input[name="r"] {
     padding-left: 27px;
 }
 
-.slider-title{
-  margin-left: 5vw;
+.slider-container{
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
 }
-
 
 .content {
   position: relative;
-  padding-top: 10px;
-  margin: auto;
-  padding: 30px;
-  width: 95%;
   box-sizing: border-box;
-  margin-left: 2vw;
 } 
 
 .arrow {
