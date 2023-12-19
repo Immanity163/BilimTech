@@ -485,6 +485,40 @@ input[type="text"]:focus {
 
 .blog-item-title{
     margin: 0;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.blog-item-date{
+    color: #344EAD;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.blog-paragraph{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.blog-read-more{
+    padding-right: 30px;
+    background-image: url('../icons/Arrow\ 4.svg');
+    background-repeat: no-repeat;
+    background-position: 144px;
+    text-decoration: none;
+    color: #344EAD;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .blog-btn{
