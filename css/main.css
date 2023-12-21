@@ -89,6 +89,7 @@
 }
 
 .a2{
+    background-size: 72px;
     background: url('../icons/иконка\ -\ мебель.svg');
     background-repeat: no-repeat;
     background-position: top center;
@@ -287,7 +288,7 @@
 }
 
 .с25{
-    background-image: url('../icons/иконка\ -\ мебель.svg');
+    background-image: url('../icons/БОльшая\ мебель.svg');
     background-repeat: no-repeat;
     background-position:  center 46px;
 }

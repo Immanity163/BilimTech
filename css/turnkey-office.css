@@ -1,3 +1,16 @@
+.key-way{
+    gap: 55px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140.023%; /* 28.005px */
+    margin-bottom: 30px;
+    background-image: url('../icons/Arrow\ 5.svg');
+    background-repeat: no-repeat;
+    background-position: 90px;
+}
+
 .catalog-list{
     flex-wrap: wrap;
     gap: 24px;
@@ -28,6 +41,7 @@
     margin: 0 auto;
     text-align: center center;
     color: #000;
+    text-align: center;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -35,78 +49,131 @@
 }
 
 .с1{
-    background-image: url('../icons/иконка\ -\ под\ ключ.svg');
+    background-image: url('../icons/big-icons/иконка\ -\ физика\ \(1\).svg');
     background-repeat: no-repeat;
     background-position:  center 46px;
 }
 
 .с2{
-    background-image: url('../icons/иконка\ -\ физика\ \(1\).svg');
+    background-image: url('../icons/big-icons/иконка\ -\ химия.svg');
     background-repeat: no-repeat;
     background-position:  center 46px;
 }
 
 .с3{
-    background-image: url('../icons/иконка\ -\ химия.svg');
+    background-image: url('../icons/big-icons/иконка\ -\ микроскоп\ биология.svg');
     background-repeat: no-repeat;
     background-position:  center 46px;
 }
 
 .с4{
-    background-image: url('../icons/иконка\ -\ микроскоп\ биология.svg');
+    background-image: url('../icons/big-icons/иконка\ -\ математика.svg');
     background-repeat: no-repeat;
     background-position:  center 43px;
 }
 
 .с5{
-    background-image: url('../icons/иконка\ -\ математика.svg');
+    background-image: url('../icons/big-icons/иконка\ -\ география.svg');
     background-repeat: no-repeat;
     background-position:  center 46px;
 }
 
 .с6{
-    background-image: url('../icons/иконка\ -\ география.svg');
+    background-image: url('../icons/big-icons/иконка\ -\ начальная.svg');
     background-repeat: no-repeat;
     background-position:  center 46px;
 }
 
 .с7{
-    background-image: url('../icons/иконка\ -\ начальная.svg');
+    background-image: url('../icons/big-icons/иконка\ -\ stem.svg');
     background-repeat: no-repeat;
     background-position:  center 46px;
 }
 
 .с8{
-    background-image: url('../icons/иконка\ -\ stem.svg');
+    background-image: url('../icons/big-icons/иконка\ -\ робототехника.svg');
     background-repeat: no-repeat;
     background-position:  center 31px;
 }
 
 .с9{
-    background-image: url('../icons/иконка\ -\ робототехника.svg');
+    background-image: url('../icons/big-icons/иконка\ -\ английский\ язык.svg');
     background-repeat: no-repeat;
     background-position:  center 46px;
 }
 
 .с10{
-    background-image: url('../icons/иконка\ -\ английский\ язык.svg');
+    background-image: url('../icons/big-icons/иконка\ -\ лингофонный.svg');
     background-repeat: no-repeat;
     background-position:  center 46px;
 }
 
 .с11{
-    background-image: url('../icons/иконка\ -\ лингофонный.svg');
+    background-image: url('../icons/big-icons/иконка\ -\ информатика.svg');
     background-repeat: no-repeat;
     background-position:  center 46px;
 }
 
 .с12{
-    background-image: url('../icons/иконка\ -\ информатика.svg');
+    background-image: url('../icons/big-icons/иконка\ -\ блюдо.svg');
     background-repeat: no-repeat;
     background-position:  center 46px;
 }
 
-.cataloge-more-btn{
-    display: block;
+.с13{
+    background-image: url('../icons/big-icons/иконка\ -\ швейная\ машинка.svg');
+    background-repeat: no-repeat;
+    background-position:  center 46px;
+}
+
+.с14{
+    background-image: url('../icons/big-icons/иконка\ -\ труд.svg');
+    background-repeat: no-repeat;
+    background-position:  center 46px;
+}
+
+.с15{
+    background-image: url('../icons/big-icons/иконка\ -\ музыка.svg');
+    background-repeat: no-repeat;
+    background-position:  center 46px;
+}
+
+.с16{
+    background-image: url('../icons/big-icons/иконка\ -\ нвп.svg');
+    background-repeat: no-repeat;
+    background-position:  center 46px;
+}
+
+.с17{
+    background-image: url('../icons/big-icons/иконка\ -\ визуальное\ искусство.svg');
+    background-repeat: no-repeat;
+    background-position:  center 46px;
+}
+
+.с18{
+    background-image: url('../icons/big-icons/иконка\ -\ библиотека.svg');
+    background-repeat: no-repeat;
+    background-position:  center 46px;
+}
+
+.с19{
+    background-image: url('../icons/big-icons/иконка\ -\ логопед.svg');
+    background-repeat: no-repeat;
+    background-position:  center 46px;
+}
+
+.с20{
+    background-image: url('../icons/big-icons/иконка\ -\ психолог.svg');
+    background-repeat: no-repeat;
+    background-position:  center 46px;
+}
+
+.с21{
+    background-image: url('../icons/big-icons/иконка\ -\ сенсорная\ комната.svg');
+    background-repeat: no-repeat;
+    background-position:  center 46px;
+}
+
+.turn-key_btn{
     margin: 0 auto;
 }
