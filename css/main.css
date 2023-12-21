@@ -660,3 +660,14 @@ input[type="text"]:focus {
 .undo::after{
     content:"Свернуть";
 }
+
+.b1{
+    width: 500px;
+    background-image: url('../icons/иконка\ -\ тг.svg'), url('../icons/иконка\ -\ вотсап.svg');
+    background-repeat: no-repeat;
+    background-position: 395px, 353px;
+}
+
+.b2{
+   
+}
