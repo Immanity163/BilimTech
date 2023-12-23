@@ -1,0 +1,114 @@
+.goods-way{
+    gap: 55px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140.023%; /* 28.005px */
+    margin-bottom: 30px;
+    background-image: url('../icons/Arrow\ 5.svg');
+    background-repeat: no-repeat;
+    background-position: 90px;
+}
+
+.goods-navigation{
+    flex-wrap: wrap;
+    gap: 15px 10px;
+    margin-bottom: 40px;
+}
+
+.navigation-btn{
+    padding: 10px 25px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140.023%; /* 28.005px */
+    cursor: pointer;
+}
+
+.navigation-btn:focus{
+    border-radius: 15px;
+    outline: 2px solid #344EAD;
+    outline-offset:-2px;
+}
+
+
+.goods-list{
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.goods-item{
+    flex-direction: column;
+    border-radius: 25px;
+    outline: 2px solid #000; 
+    height: 533px;
+    width: 384px;
+}
+
+.recomended-item-image{
+    height: 381px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.recomend-item-content{
+    padding: 20px 30px;
+    flex-direction: column;
+    border-top: 2px solid #000;
+}
+
+.recomend-item-title{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 7px;
+}
+
+.recomend-item-more{
+    width: fit-content;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #344EAD;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-image: url('../icons/Arrow\ 2.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 22px;
+}
+
+.recomend-item-conent-2{
+    justify-content: space-between;
+}
+
+.recomend-item-price{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.recomend-item-basket{
+    text-decoration: none;
+    color: #344EAD;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-image: url('../icons/Basket.svg');
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-left: 27px;
+}
