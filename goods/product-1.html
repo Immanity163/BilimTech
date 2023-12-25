@@ -58,6 +58,30 @@
                         </div>
                     </div>
                 </div>
+                <div class="product-info">
+                    <div class="product-navigation flex">
+                        <button class="navigation-btn" data-category="category1">Описание</button>
+                        <button class="navigation-btn" data-category="category2">Характеристики</button>
+                        <button class="navigation-btn" data-category="category3">Отзывы</button>
+                    </div>
+                    <div class="information description category1">
+                        <p class="info-paragraph">
+                            Этот датчик позволяет учащимся легко собирать точные данные о давлении газа, а также служит
+                            в качестве потометра для биологических исследований. Датчик для измерения давления является
+                            компактным устройством, представляющим собой жидкокристаллический дисплей в алюминиевом
+                            корпусе. В него входят специальные трубки, которые оценивают давление конкретной среды –
+                            жидкости, газа или пара, а затем преобразовывают его либо выводят на экран его числовое
+                            значение при помощи аналогового или цифрового сигнала. Принцип осуществления деятельности
+                            данного прибора напрямую зависит от типа измеряемого давления
+                        </p>
+                    </div>
+                    <div class="information specifications category2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dicta ut soluta laudantium esse doloremque atque facere voluptatum consequatur, cumque eos minus, accusamus cum harum. Quia nobis ipsam atque quasi.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quo, expedita delectus magnam fuga tenetur quasi odit reprehenderit corrupti quaerat quod iure placeat. Nam, saepe? Voluptatibus molestiae provident minima hic!
+
+                    </div>
+                    <div class="information rewiews category3">gdgfdgfdsdfgadfgafdgfdgfdefrgfdfefertgrefrfdgdgerherihwrguerqhgiurtehgetriuhg</div>
+                </div>
             </div>
         </section>
     </main>
@@ -76,6 +100,19 @@
 
             plusBtn.addEventListener('click', function () {
                 input.value = parseInt(input.value) + 1;
+            });
+        });
+
+        document.querySelectorAll('.navigation-btn').forEach((btn) => {
+            btn.addEventListener('click', () => {
+                const category = btn.getAttribute('data-category');
+                document.querySelectorAll('.information').forEach((product) => {
+                    if (product.classList.contains(category)) {
+                        product.style.display = '';
+                    } else {
+                        product.style.display = 'none';
+                    }
+                });
             });
         });
     </script>

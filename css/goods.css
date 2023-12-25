@@ -26,6 +26,7 @@
 
 .product-container{
     gap: 24px;
+    margin-bottom: 30px;
 }
 
 .brief-information{
@@ -136,3 +137,19 @@
   .basket-btn{
     margin-top: auto;
   }
+
+  .product-navigation{
+    gap: 90px;
+    margin-bottom: 30px;
+  }
+
+  .navigation-btn{
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+  }
+
+  .navigation-btn:focus{
+    border-bottom: 2px solid #344EAD;
+    outline-offset:-2px;
+}
