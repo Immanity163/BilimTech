@@ -144,6 +144,11 @@
   }
 
   .navigation-btn{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140.023%; /* 28.005px */
     cursor: pointer;
     border: none;
     background-color: #fff;
@@ -152,4 +157,99 @@
   .navigation-btn:focus{
     border-bottom: 2px solid #344EAD;
     outline-offset:-2px;
+}
+
+.info-paragraph{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140.023%; /* 28.005px */
+    margin-bottom: 30px;
+}
+
+.specificatiopns-list{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.specifications-item{
+    justify-content: space-between;
+    width: 545px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140.023%; /* 28.005px */
+}
+
+.specifications-item div:nth-child(2){
+    flex: 1 0;
+    border-bottom: 1px dotted #000;
+    height: 1em;
+    margin: 0 .4em;
+}
+
+.rewiews-list{
+    gap: 24px;
+}
+
+.rewiews-item{
+    border-radius: 25px;
+    background: #E6E6E6;
+    padding: 23px;
+    width: 384px;
+}
+
+.rewiews-container{
+    margin-bottom: 12px;
+}
+
+.rewiews-item-avatar{
+    margin-right: 15px;
+}
+
+.rewiews-name{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140.023%; /* 28.005px */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.rewiews-date{
+    color: #344EAD;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.rewiews-rating{
+    gap: 8px;
+}
+
+.rewiews-num{
+    color: #344EAD;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.rewiews-text{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140.023%; /* 28.005px */
 }
