@@ -1,37 +1,28 @@
-*,html{
-    padding: 0;
-    width: 100%;
-}
-body{
-    margin-top: 3%;
-}
 header{
+    margin-top: 5vh !important;
     width: 80%;
-    margin: 0 auto 2%;
+    margin: auto;
     height: 20%;
     font-size: 15px
 }
 
 .header-top{
-    margin-top: 100px;
     height: 25%;
-    margin: 0 0 3% ;
+    margin: 0 0 3vh ;
     display: flex;
     justify-content: space-between ;
-    width: 100%;
     align-items:center;
 }
 .header-nav{
+    width: 100%;
     display: flex;
-    justify-content: space-between ;
+    float: left;
     align-items: center;
-    margin-left: 30px;
 }
 .header-logo{
-    width: 30%;
+    width: 20%;
 }
 .header-logo > img {
-    height: auto;
     object-fit: contain;
     aspect-ratio: auto;
 }
@@ -52,28 +43,26 @@ header{
     text-decoration: none;
     color: #000000;
     margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .basket-icon{
+    margin: 0 10px 0 0;
     height: 1.2em;
-    width: 5%;
+    aspect-ratio: 1;
 }
-.basket-wrapper{
-    display: inline-block;
-    display: flex;
-    justify-content: end;
-    height: 100%;
-    align-items: center;
-}
-.header-form{
+.header-bottom > form{
     position: relative;
 }
-.header-input{
+.header-input-field{
+    width: 100%;
     border-radius: 12px;
     min-height: 35px;
     border: solid 1px #000000;
     padding-left: 25px;
 }
-.header-submit{
+.header-submit-btn{
     all: unset;
     position: absolute;
     height: 100%;
@@ -86,6 +75,11 @@ header{
 
 .submit-icon{
     height: 55%;
-    aspect-ratio: auto;
     width: auto;
+}
+
+@media (max-width:801px){
+    .header-nav{
+        display: none !important;
+    }
 }
