@@ -26,10 +26,10 @@ header{
     object-fit: contain;
     aspect-ratio: auto;
 }
-.header-nav>ul{
+.header-nav > ul{
     display: inline;
 }
-.header-nav>ul>li>a{
+.header-nav> ul > li > a{
     text-decoration: none;
     color:#000000;
 }
