@@ -1,7 +1,5 @@
 footer{
-    height: 300px;
     border-top: solid #000000 2px;
-    font-size: 15px;
 }
 .footer-wrapper{
     width: 80%;
@@ -13,12 +11,6 @@ footer{
     display: flex;
     align-items:center;
     height: 300px;
-}
-.footer-container:ntn-last-child(4){
-    align-items: start;
-}
-.footer-container>ul{
-    list-style: none;
 }
 .footer-container>ul>li>a{
     text-decoration: none;
@@ -47,4 +39,19 @@ footer{
 .footer-icon{
     height: 25px;
     width: auto;
+}
+
+@media (max-width:801px){
+    .footer-container:nth-child(n+3){
+        display: none;
+    }
+    .footer-container:nth-last-child(-n+1){
+        display: flex !important;
+    }
+}
+
+@media (max-width:401px){
+    .footer-container:nth-child(n+2){
+        display: none;
+    }
 }
