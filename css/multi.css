@@ -58,7 +58,9 @@ a{
 .flex{
     display: flex;
 }
-
+.space-between{
+    justify-content: space-between;
+}
 .list-reset {
     margin: 0;
     padding: 0;
