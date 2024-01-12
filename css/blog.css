@@ -22,7 +22,7 @@
 }
 
 .blog-item-container{
-    padding: 50px 25px;
+    padding: 25px 25px;
 }
 
 .blog-item-container-2{
@@ -53,4 +53,21 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.actions{
+    margin-right: 2em;
+    float: right;
+    width: 65%;
+    height: 10%;
+}
+
+.action-element{
+    align-items: center;
+    margin-right: 2em;
+    color:#344EAD;
+}
+
+.action-element > img{
+    margin-right: 0.5em;
 }
