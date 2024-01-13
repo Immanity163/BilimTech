@@ -1,0 +1,92 @@
+.recommend{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  
+  
+  .recomend-item{
+      margin: 10px 0 10px 10px;
+      flex-direction: column;
+      border-radius: 25px;
+      outline: 2px solid #000; 
+      height: 533px;
+      width: 384px;
+  }
+  
+  .recomended-item-image{
+      height: 381px;
+      align-items: center;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .recomend-item-content{
+      padding: 20px 30px;
+      flex-direction: column;
+      border-top: 2px solid #000;
+  }
+  
+  .recomend-item-title{
+      color: #000;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin: 0;
+      margin-bottom: 7px;
+  }
+  
+  .recomend-item-more{
+      width: fit-content;
+      margin-bottom: 15px;
+      text-decoration: none;
+      color: #344EAD;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      background-image: url('../icons/Arrow\ 2.svg');
+      background-repeat: no-repeat;
+      background-position: right center;
+      padding-right: 22px;
+  }
+  
+  .recomend-item-price{
+      color: #000;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+  }
+  
+  .recomend-item-basket{
+      text-decoration: none;
+      color: #344EAD;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      background-image: url('../icons/Basket.svg');
+      background-repeat: no-repeat;
+      background-position: left top;
+      padding-left: 27px;
+  }
+  
+  .slider-container{
+      width: 90%;
+      margin: auto;
+      max-width: 1200px;
+      
+  }
+  
+  .content {
+    position: relative;
+    box-sizing: border-box;
+  } 
+  
+  .arrow {
+    width: 20px;
+    height: 40px;
+  }
+  
