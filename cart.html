@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BilimTech</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/multi.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <section class="cross-site-nav">
+        <div class="container">
+            <div class="cart-way flex">
+                <span class="order-way-1">Главная</span>
+                <span class="order-way-2">Корзина</span>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container"><h2 class="section-title">Корзина</h2></div>
+        <div class="container">
+            <div class="cart">
+                <div class="cart-head flex">
+                    <span class="cart-title">Название:</span>
+                    <span class="cart-title">Количество:</span>
+                    <span class="cart-title">Стоимость:</span>
+                    <span class="cart-title">Всего:</span>
+                </div>
+                <div class="cart-element flex">
+                    <img src="img/cart-image-1.jpg">
+                    <div class="cart-element-details flex">
+                        <div>Беспроводной датчик давления</div>
+                        <div class="counter">
+                            <button class="minus-btn">-</button>
+                            <input type="number" value="1" min="1" max="999">
+                            <button class="plus-btn">+</button>
+                        </div>
+                        <div class="price">1000<span> руб.</span></div>
+                        <div class="product_total">1000 руб.</div>
+                    </div>
+                </div>
+                <div class="cart-element flex">
+                    <img src="img/cart-image-2.jpg">
+                    <div class="cart-element-details flex">
+                        <div>Беспроводной датчик pH</div>
+                        <div class="counter">
+                            <button class="minus-btn">-</button>
+                            <input type="number" value="1" min="1" max="999">
+                            <button class="plus-btn">+</button>
+                        </div>
+                        <div class="price">1000000<span> руб.</span></div>
+                        <div class="product_total">1000000 руб.</div>
+                    </div>
+                </div>
+                <div class="cart-element flex">
+                    <img src="img/cart-image-1.jpg">
+                    <div class="cart-element-details flex">
+                        <div>Беспроводной датчик давления</div>
+                        <div class="counter">
+                            <button class="minus-btn">-</button>
+                            <input type="number" value="1" min="1" max="999">
+                            <button class="plus-btn">+</button>
+                        </div>
+                        <div class="price">123475<span> руб.</span></div>
+                        <div class="product_total">123475 руб.</div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn order_placement">Оформить заказ</button>
+        </div>
+    </section>
+    <script>
+            // numeric input buttons ↓
+
+
+        document.querySelectorAll('.cart-element-details').forEach((product) => {
+            let input = product.querySelector('input[type="number"]');   
+            let all = 0; 
+
+            product.querySelector('.minus-btn').addEventListener('click', function () {
+                if (input.value > 1) {
+                    input.value = parseInt(input.value) - 1;
+                }
+            });
+
+            product.querySelector('.plus-btn').addEventListener('click', function () {
+                input.value = parseInt(input.value) + 1;
+            });
+
+            // total price for each product ↓
+
+            product.querySelector('.plus-btn').addEventListener('click', function () {
+                let price = parseInt(product.querySelector('.price').textContent);
+                product.querySelector('.product_total').textContent = parseInt(input.value) * price + " руб.";
+            });
+
+            product.querySelector('.minus-btn').addEventListener('click', function () {
+                let price = parseInt(product.querySelector('.price').textContent);
+                product.querySelector('.product_total').textContent = parseInt(input.value) * price + " руб.";
+            });
+
+        });
+
+        
+
+
+        
+    </script>
+</body>
+</html>
