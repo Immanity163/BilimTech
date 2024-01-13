@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BilimTech</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/multi.css">
+    <link rel="stylesheet" href="css/order.css">
+</head>
+<body>
+    <main>
+        <section class="cross-site-nav">
+            <div class="container">
+                <div class="order-way flex">
+                    <span class="order-way-1">Главная</span>
+                    <span class="order-way-2">Корзина</span>
+                    <span class="order-way-3">Оформление заказа</span>
+                </div>
+            </div>
+        </section>
+        <section class="order">
+            <div class="container flex space-between">
+                <form class="form-wrapper">
+                    <h2 class="section-title">Оформление заказа</h2>
+                    <span class="order-span">Спасибо за Ваш заказ! Заказ будет отправлен Вам на электронный адрес. <br /> 
+                        Мы свяжемся с Вами в ближайшее время.</span>
+                    <div class="order-form flex">
+                        <input class="order-input" type="text" name="firstname" placeholder="Ваше имя *" required>
+                        <input class="order-input" type="text" name="phone-number" placeholder="Ваш адрес электронной почты *" required>
+                        <input class="order-input" type="text" name="phone-number" placeholder="Ваш номер телефона *" required>
+                        <input class="order-input" type="text" name="phone-number" placeholder="Ваше сообщение">
+                    </div>
+                    <div class="flex">
+                        <div class="order-form">
+                            <input class="order-checkbox" type="checkbox" required>
+                        </div>
+                        <span class="order-span">Я согласен на обработку моих персональных данных</span>
+                    </div>
+                    <input type="submit" class="btn" value="Оформить заказ">
+                </form>
+                <img class="order-img" src="img/order.jpg" alt="">
+            </div>
+        </section>
+    </main>
+</body>
+</html>
